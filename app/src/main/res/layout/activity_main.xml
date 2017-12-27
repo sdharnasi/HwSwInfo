@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.srinu.HwSwInfo.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_hard_soft_info"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:text="@string/get_hard_soft_info" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="374dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0.11">
+
+
+        <TextView
+            android:id="@+id/textViewSetInformation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonGetInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Get Information"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
